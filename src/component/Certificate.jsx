@@ -14,11 +14,6 @@ function CertificateSection() {
     link: "https://drive.google.com/file/d/1iKZIdlXAiYXLZ5MeZnPz1oo1mOYn5QHQ/view?usp=drive_link",
   },
   {
-    title: "AWS for React",
-    image: aws,
-    link: "https://drive.google.com/file/d/1ovx6r7Cglb36IZcVngKK2ELgyqd0DORB/view?usp=drive_link",
-  },
-  {
     title: "Problem Solving (Basic)",
     image: problemSolving,
     link: "https://drive.google.com/file/d/17uiWtVtvdhF7nraQRnv81Krgyl044lrE/view?usp=drive_link",
