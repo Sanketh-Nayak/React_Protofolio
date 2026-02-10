@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import '../public/navbar.css';
+import React, { useRef } from "react";
+import "../public/navbar.css";
 
 function Navbar() {
   const menuBtnRef = useRef(null);
@@ -22,15 +22,50 @@ function Navbar() {
         <h2>Sanketh Nayak</h2>
       </div>
       <label>
-        <i className="ri-menu-line" id="menu_btn" ref={menuBtnRef} onClick={handleMenuClick}></i>
+        <i
+          className="ri-menu-line"
+          id="menu_btn"
+          ref={menuBtnRef}
+          onClick={handleMenuClick}
+        ></i>
       </label>
-      <input type="checkbox" id='check' />
-      <ul className="nav_links" id="navLinks" ref={navLinksRef} onClick={closeMenu}>
-        <li><a href="#Home" onClick={closeMenu}>Home</a></li>
-        <li><a href="#Project" onClick={closeMenu}>Project</a></li>
-        <li><a href="#Certificate1" onClick={closeMenu}>Certificate</a></li>
-        <li><a href="#Resume" onClick={closeMenu}>Resume</a></li>
-        <li><a href="#Contact" onClick={closeMenu}>Contact Us</a></li>
+      <input type="checkbox" id="check" />
+      <ul
+        className="nav_links"
+        id="navLinks"
+        ref={navLinksRef}
+        onClick={closeMenu}
+      >
+        <li>
+          <a href="#Home" onClick={closeMenu}>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#Home" onClick={closeMenu}>
+            Education
+          </a>
+        </li>
+        <li>
+          <a href="#Education" onClick={closeMenu}>
+            Project
+          </a>
+        </li>
+        <li>
+          <a href="#Certificate1" onClick={closeMenu}>
+            Certificate
+          </a>
+        </li>
+        <li>
+          <a href="#Resume" onClick={closeMenu}>
+            Resume
+          </a>
+        </li>
+        <li>
+          <a href="#Contact" onClick={closeMenu}>
+            Contact Us
+          </a>
+        </li>
       </ul>
     </nav>
   );
